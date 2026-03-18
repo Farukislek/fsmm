@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kredibu | Banka Kredi Kampanyaları</title>
+    <meta
+      name="description"
+      content="Türkiye'deki bankaların ihtiyaç, konut ve taşıt kredi kampanyalarını tek ekranda karşılaştırın. Güncel faiz oranları, vade seçenekleri ve başvuru bağlantıları."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Kredibu | Banka Kredi Kampanyaları" />
+    <meta
+      property="og:description"
+      content="Banka kredi kampanyalarını karşılaştır, sana en uygun teklifi bul."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#">Kredibu<span>.com</span></a>
+        <nav class="nav">
+          <a href="#kampanyalar">Kampanyalar</a>
+          <a href="#rehber">Kredi Rehberi</a>
+          <a href="#sss">SSS</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="badge">Güncel & Karşılaştırmalı</p>
+            <h1>Banka kredi kampanyalarını tek ekranda karşılaştır.</h1>
+            <p class="subtitle">
+              İhtiyaç, konut ve taşıt kredilerinde faiz oranı, masraf ve vade bilgilerini sade bir arayüzle incele.
+              Mobilde ve bilgisayarda hızlı, anlaşılır ve kullanıcı dostu deneyim.
+            </p>
+            <a class="btn" href="#kampanyalar">Kampanyaları İncele</a>
+          </div>
+          <aside class="hero-card">
+            <h2>Öne Çıkanlar</h2>
+            <ul>
+              <li>✅ Banka bazlı filtreleme</li>
+              <li>✅ Kredi türüne göre karşılaştırma</li>
+              <li>✅ Mobil uyumlu (responsive) tasarım</li>
+              <li>✅ Reklam alanı yerleşimi hazır</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="ad-slot container" aria-label="Üst reklam alanı">
+        <p>Reklam Alanı (728x90 / Responsive)</p>
+        <code><!-- Google AdSense kodu buraya eklenecek --></code>
+      </section>
+
+      <section id="kampanyalar" class="container section">
+        <div class="section-head">
+          <h2>Kredi Kampanyaları</h2>
+          <p>Filtrele, sırala ve sana uygun kampanyayı hızlıca bul.</p>
+        </div>
+
+        <div class="filters">
+          <label>
+            Kredi Türü
+            <select id="typeFilter">
+              <option value="all">Tümü</option>
+              <option value="ihtiyac">İhtiyaç Kredisi</option>
+              <option value="konut">Konut Kredisi</option>
+              <option value="tasit">Taşıt Kredisi</option>
+            </select>
+          </label>
+
+          <label>
+            Banka
+            <select id="bankFilter">
+              <option value="all">Tüm Bankalar</option>
+            </select>
+          </label>
+
+          <label>
+            Sıralama
+            <select id="sortFilter">
+              <option value="rateAsc">En Düşük Faiz</option>
+              <option value="rateDesc">En Yüksek Faiz</option>
+              <option value="updatedDesc">En Güncel Kampanya</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="campaignGrid" class="grid" aria-live="polite"></div>
+      </section>
+
+      <section class="ad-slot container" aria-label="İçerik altı reklam alanı">
+        <p>Reklam Alanı (In-article / Responsive)</p>
+        <code><!-- Google AdSense kodu buraya eklenecek --></code>
+      </section>
+
+      <section id="rehber" class="container section">
+        <div class="section-head">
+          <h2>Kredi Rehberi</h2>
+          <p>Başvuru öncesi dikkat etmen gereken temel başlıklar.</p>
+        </div>
+        <div class="guide-grid">
+          <article>
+            <h3>Faiz Oranı ve Yıllık Maliyet</h3>
+            <p>
+              Sadece aylık faiz oranına değil, toplam geri ödeme ve yıllık maliyet oranına da bak. Dosya masrafı ve sigorta,
+              toplam maliyeti ciddi şekilde etkileyebilir.
+            </p>
+          </article>
+          <article>
+            <h3>Vade Planı</h3>
+            <p>
+              Daha uzun vade, aylık taksiti düşürse de toplam geri ödeme tutarını artırır. Bütçene uygun ama toplam maliyeti
+              makul bir denge hedefle.
+            </p>
+          </article>
+          <article>
+            <h3>Kredi Notu Etkisi</h3>
+            <p>
+              Kredi notun yükseldikçe daha avantajlı teklif alma ihtimalin artar. Başvuru öncesi mevcut borç durumunu ve ödeme
+              düzenini kontrol et.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="sss" class="container section">
+        <div class="section-head">
+          <h2>Sık Sorulan Sorular</h2>
+        </div>
+        <details>
+          <summary>Kampanya bilgileri ne sıklıkla güncelleniyor?</summary>
+          <p>Veriler haftalık veya kampanya değişimi olduğunda güncellenmelidir. Yönetim rehberi için README dosyasına bakabilirsin.</p>
+        </details>
+        <details>
+          <summary>Kredibu kredi başvurusu alıyor mu?</summary>
+          <p>
+            Hayır. Kredibu bilgilendirme ve yönlendirme platformudur. Başvurular ilgili bankanın resmi kanalı üzerinden yapılır.
+          </p>
+        </details>
+        <details>
+          <summary>Reklam gelirini nasıl artırabilirim?</summary>
+          <p>
+            SEO odaklı içerik üretimi, hızlı sayfa açılışı ve kullanıcı dostu tasarım reklam gösterimi ile tıklama performansını
+            olumlu etkiler.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> Kredibu.com</p>
+        <p class="muted">Bilgilendirme amaçlıdır, yatırım/finansal danışmanlık değildir.</p>
+      </div>
+    </footer>
+
+    <template id="campaignTemplate">
+      <article class="card">
+        <div class="card-head">
+          <p class="bank"></p>
+          <span class="type"></span>
+        </div>
+        <h3 class="name"></h3>
+        <ul class="stats">
+          <li><strong>Faiz:</strong> <span class="rate"></span></li>
+          <li><strong>Vade:</strong> <span class="maturity"></span></li>
+          <li><strong>Maks. Tutar:</strong> <span class="amount"></span></li>
+          <li><strong>Güncelleme:</strong> <span class="updated"></span></li>
+        </ul>
+        <p class="note"></p>
+        <a class="detail-link" target="_blank" rel="noopener noreferrer">Bankada İncele</a>
+      </article>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+[
+  {
+    "bank": "Ziraat Bankası",
+    "name": "Düşük Faizli İhtiyaç Kredisi",
+    "type": "ihtiyac",
+    "rate": 3.19,
+    "maturity": "36 aya kadar",
+    "maxAmount": "250.000 TL",
+    "updatedAt": "2026-03-15",
+    "note": "Maaş müşterilerine özel avantajlı oranlar sunulabilir.",
+    "url": "https://www.ziraatbank.com.tr"
+  },
+  {
+    "bank": "VakıfBank",
+    "name": "SarıPanjur Konut Kredisi",
+    "type": "konut",
+    "rate": 2.89,
+    "maturity": "120 aya kadar",
+    "maxAmount": "Ekspertiz değerine göre",
+    "updatedAt": "2026-03-14",
+    "note": "Belirli projelerde kampanyalı oranlar uygulanabilir.",
+    "url": "https://www.vakifbank.com.tr"
+  },
+  {
+    "bank": "Garanti BBVA",
+    "name": "Online İhtiyaç Kredisi",
+    "type": "ihtiyac",
+    "rate": 3.45,
+    "maturity": "36 aya kadar",
+    "maxAmount": "200.000 TL",
+    "updatedAt": "2026-03-16",
+    "note": "Mobil uygulama üzerinden hızlı başvuru imkanı.",
+    "url": "https://www.garantibbva.com.tr"
+  },
+  {
+    "bank": "Akbank",
+    "name": "Taşıt Kredisi Kampanyası",
+    "type": "tasit",
+    "rate": 3.05,
+    "maturity": "48 aya kadar",
+    "maxAmount": "Araç değerine göre",
+    "updatedAt": "2026-03-12",
+    "note": "Sıfır ve ikinci el araçlarda farklı oranlar olabilir.",
+    "url": "https://www.akbank.com"
+  },
+  {
+    "bank": "İş Bankası",
+    "name": "Ev Kredisi Fırsatı",
+    "type": "konut",
+    "rate": 2.95,
+    "maturity": "120 aya kadar",
+    "maxAmount": "Ekspertiz değerine göre",
+    "updatedAt": "2026-03-10",
+    "note": "Hayat sigortası koşulları toplam maliyeti etkileyebilir.",
+    "url": "https://www.isbank.com.tr"
+  },
+  {
+    "bank": "Yapı Kredi",
+    "name": "Bireysel İhtiyaç Kredisi",
+    "type": "ihtiyac",
+    "rate": 3.35,
+    "maturity": "36 aya kadar",
+    "maxAmount": "175.000 TL",
+    "updatedAt": "2026-03-11",
+    "note": "Müşteri segmentine göre oranlar değişebilir.",
+    "url": "https://www.yapikredi.com.tr"
+  }
+]
